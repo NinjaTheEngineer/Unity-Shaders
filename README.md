@@ -1,2 +1,2 @@
-# Unity-Shaders
-Learning and Testing Unity Shaders
+# Lighting-Fundamentals
+ Shader's Training and Understanding
