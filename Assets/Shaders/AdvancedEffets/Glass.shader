@@ -74,7 +74,7 @@
 			fixed4 frag(v2f i) : SV_Target
 			{
 				half2 bump = UnpackNormal(tex2D(_BumpTex, i.uvbump)).rg;
-				float2 offset = bump.xy * _ScaleUV * _GrabTexture_TexelSize.xy;
+				float2 offset = bump.xy	 * _ScaleUV * _GrabTexture_TexelSize.xy;
 				i.uvgrab.xy = offset * i.uvgrab.z + i.uvgrab.xy;
 
 				fixed4 col = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.uvgrab));
