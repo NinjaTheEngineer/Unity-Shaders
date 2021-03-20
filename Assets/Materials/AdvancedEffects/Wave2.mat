@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wave
-  m_Shader: {fileID: 4800000, guid: 06dc91b90b61159428abbca60c968345, type: 3}
+  m_Name: Wave2
+  m_Shader: {fileID: 4800000, guid: 81eefe2ef0bab8c4e97b37b742696ab4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5d77f9078255ed1438f1307db0641eb6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 09633681a59b03f4bbd93dd27681db33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -57,6 +57,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecTex:
+        m_Texture: {fileID: 2800000, guid: a00de813e9f735147947def2afa074af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -76,6 +80,8 @@ Material:
     - _ScaleUV: 20
     - _ScaleUVX: 1
     - _ScaleUVY: 1
+    - _ScrollX: 1.2
+    - _ScrollY: 1.7
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 46.5
