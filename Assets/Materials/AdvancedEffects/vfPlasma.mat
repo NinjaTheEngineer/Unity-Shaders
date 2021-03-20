@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: myPlasma 1
-  m_Shader: {fileID: 4800000, guid: 1986fce30a27afb49900d5ac3a63d346, type: 3}
+  m_Name: vfPlasma
+  m_Shader: {fileID: 4800000, guid: 22ab4415123773047aa12220f88376f8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -73,16 +73,16 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Scale1: 0.9
-    - _Scale2: 1.9
-    - _Scale3: 2.3
-    - _Scale4: 1.5
+    - _Scale1: 0.1
+    - _Scale2: 10
+    - _Scale3: 10
+    - _Scale4: 8.9
     - _ScaleUV: 20
     - _ScaleUVX: 1
     - _ScaleUVY: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
+    - _Speed: 100
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
